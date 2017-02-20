@@ -19,4 +19,4 @@
     
 
 
-  [1]: ./images/jdfw.gif "jdfw.gif"
+  [1]: https://github.com/bjpftz/Scalendar/blob/master/jdfw.gif
