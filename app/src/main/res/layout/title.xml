@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="45.0dip" >
+
+    <!-- 为标题信息 -->
+
+    <ImageView
+        android:id="@+id/titleBg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/home_top_bar_bg"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/progressImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5.0dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/titleText"
+        style="@style/layout_title"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:padding="10.0dip"
+        android:singleLine="true" />
+
+</RelativeLayout>
